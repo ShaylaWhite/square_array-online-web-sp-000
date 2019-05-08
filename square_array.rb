@@ -7,5 +7,5 @@ numbers.each do |numbers|
   puts "This is loop number #{counter}"
   puts "Stop hitting yourself #{numbers}!"
   counter += 1
-
+end
 end
