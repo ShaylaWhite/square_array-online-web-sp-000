@@ -7,6 +7,6 @@ numbers.each do |numbers|
   puts "Stop hitting yourself #{numbers}!"
    puts "Stop hitting yourself #{counter}!"
    counter += 1
-   
+   square_array(new_numbers)
 end
 end
