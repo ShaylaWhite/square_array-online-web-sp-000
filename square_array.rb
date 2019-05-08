@@ -1,11 +1,8 @@
-
-def square_array(array)
-  numbers = [1,2,3]
-counter = 1
-numbers.each do |numbers|
-  puts "This is loop number #{counter}"
-  puts "Stop hitting yourself #{numbers}!"
-  counter += 1
+  squared_array = []
+  array.each do |num|
+    square = num ** 2
+    squared_array << square
+  end
+  squared_array
 end
-endnumbers = [1,2,3]
 
