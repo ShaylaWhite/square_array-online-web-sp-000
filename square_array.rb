@@ -6,3 +6,4 @@ def square_array(array)
    puts "The Queen is #{numbers}!"
    counter += 1
 end
+end
